@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<paths>-->
+<!--    &lt;!&ndash; See table below.  The external-files-path DOES NOT require external storage permissions. &ndash;&gt;-->
+<!--    <external-files-path name="images" path="." />-->
+<!--</paths>-->
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <external-path
+        name="external_files"
+        path="."/>
+    <cache-path
+        name="cache"
+        path="." />
+</paths>

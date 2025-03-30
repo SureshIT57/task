@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.StallsDetailsViewActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="@dimen/margin_5"
+        android:elevation="@dimen/margin_5"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_5"
+            android:layout_weight="0.5">
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:src="@drawable/ic_left36"
+                android:background="@drawable/button_circle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="@dimen/margin_5"
+
+            android:layout_weight="0.5">
+            <ImageView
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:src="@drawable/share"
+                android:background="@drawable/button_circle"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_uploadImage"
+        android:layout_width="@dimen/margin_30"
+        android:layout_height="@dimen/margin_30"
+        android:background="@drawable/folder"
+        android:elevation="@dimen/margin_5"
+        android:gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/margin_60"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_5"
+        android:layout_marginVertical="@dimen/margin_5"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Attach File"
+        android:textColor="@color/black"
+        android:elevation="@dimen/margin_5"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_bottom_25"
+        android:textSize="@dimen/textSizeLarge" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:id="@+id/iv_currentImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            android:scaleType="fitXY"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+        <TextView
+            android:id="@+id/tv_stallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_5"
+            android:layout_marginVertical="@dimen/margin_3"
+            android:text="TechTrends"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/textSizeExtraExtraLarge" />
+        <TextView
+            android:id="@+id/tv_stallCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_5"
+            android:layout_marginVertical="@dimen/margin_5"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="TechTrends Technologies"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeLarge" />
+
+        <TextView
+            android:id="@+id/tv_stallFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_5"
+            android:layout_marginVertical="@dimen/margin_5"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="15 Files"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeLarge"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_dotted_line"
+            android:layout_margin="@dimen/margin_5"/>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
+
+</LinearLayout>

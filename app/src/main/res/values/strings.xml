@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gatherly</string>
+    <string name="splash_text">Gatherly</string>
+    <string name="gallery">Gallery</string>
+    <string name="image">image</string>
+    <string name="images">Images</string>
+    <string name="nodata">nodata</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "572255230782",
+    "project_id": "gatherly-sb",
+    "storage_bucket": "gatherly-sb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572255230782:android:0777e74b02d4cf0ed2ea6f",
+        "android_client_info": {
+          "package_name": "com.project.gatherly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572255230782-l6rv06qh74h8ilki0ptujci8hre3qkr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.gatherly",
+            "certificate_hash": "7aabb741e2dd95338989046971d6d63fa567198e"
+          }
+        },
+        {
+          "client_id": "572255230782-j5jnrdt6i2f4pb04irmahqiau7fj1ldq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCERh5fIumE04kNXs-UscpLArxBtnGQeOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572255230782-j5jnrdt6i2f4pb04irmahqiau7fj1ldq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
